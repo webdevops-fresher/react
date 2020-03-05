@@ -1,0 +1,28 @@
+.build_control{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:5px 0;
+}
+
+.button{
+    display:block;
+    font:inherit;
+    margin:0 5px;
+    width:80px;
+    border:1px solid #aa6817;
+    border-radius:30px;
+    cursor:pointer;
+    outline:none;
+}
+.button:disabled{
+    background:rgb(141, 67, 7);
+    color:black;
+}
+.label{
+    border:1px solid #aa6817;
+    border-radius:30px;
+    padding:0 5px;
+    background:white;
+    color:black;
+}
